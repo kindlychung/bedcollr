@@ -1,0 +1,5 @@
+useDynLib(bedcollr)
+import(RcppArmadillo)
+import(mhplot)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")

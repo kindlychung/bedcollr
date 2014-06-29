@@ -1,0 +1,11 @@
+Package: bedcollr
+Type: Package
+Title: Plot results from QCDH
+Version: 1.0
+Date: 2014-06-27
+Author: Kaiyin Zhong
+Maintainer: Kaiyin Zhong <kindlychung@gmail.com>
+Description: Plot results from QCDH
+License: GPL
+Imports: Rcpp (>= 0.11.2), RcppArmadillo (>= 0.4.300.8.0), mhplot (>= 0.1)
+LinkingTo: Rcpp, RcppArmadillo
