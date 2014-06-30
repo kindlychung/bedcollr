@@ -5,6 +5,10 @@ rcpparma_hello_world <- function() {
     .Call('bedcollr_rcpparma_hello_world', PACKAGE = 'bedcollr')
 }
 
+testarma <- function() {
+    .Call('bedcollr_testarma', PACKAGE = 'bedcollr')
+}
+
 rcpparma_outerproduct <- function(x) {
     .Call('bedcollr_rcpparma_outerproduct', PACKAGE = 'bedcollr', x)
 }

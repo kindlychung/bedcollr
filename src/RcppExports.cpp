@@ -20,6 +20,20 @@ BEGIN_RCPP
     return __sexp_result;
 END_RCPP
 }
+// testarma
+NumericMatrix testarma();
+RcppExport SEXP bedcollr_testarma() {
+BEGIN_RCPP
+    SEXP __sexp_result;
+    {
+        Rcpp::RNGScope __rngScope;
+        NumericMatrix __result = testarma();
+        PROTECT(__sexp_result = Rcpp::wrap(__result));
+    }
+    UNPROTECT(1);
+    return __sexp_result;
+END_RCPP
+}
 // rcpparma_outerproduct
 arma::mat rcpparma_outerproduct(const arma::colvec& x);
 RcppExport SEXP bedcollr_rcpparma_outerproduct(SEXP xSEXP) {
