@@ -2,4 +2,4 @@
 
 git add --all .
 git commit -m $1
-git push --all origin master
+git push origin master
