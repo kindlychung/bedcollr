@@ -9,9 +9,11 @@ It's possible to install these tools on Windows through MinGW or Cygwin, but I h
 # Installation
 
     require(devtools)
+    Sys.setenv("PKG_CXXFLAGS"="-std=c++11")
     install_github("bedcollr", username="kindlychung")
 
 # Changes
 
+* contrastplot now working under new design
 * readout now working under the new design
 * xxx_shift_0000.bed now linked to original xxx.bed
