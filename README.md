@@ -14,6 +14,7 @@ It's possible to install these tools on Windows through MinGW or Cygwin, but I h
 
 # Changes
 
+* added R.utils dependency
 * contrastplot now working under new design
 * readout now working under the new design
 * xxx_shift_0000.bed now linked to original xxx.bed
