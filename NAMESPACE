@@ -1,5 +1,5 @@
 useDynLib(bedcollr)
 import(RcppArmadillo)
-import(mhplot)
+import(manqq)
 importFrom(Rcpp, evalCpp)
 exportPattern("^[[:alpha:]]+")

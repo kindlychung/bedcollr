@@ -10,3 +10,8 @@ It's possible to install these tools on Windows through MinGW or Cygwin, but I h
 
     require(devtools)
     install_github("bedcollr", username="kindlychung")
+
+# Changes
+
+* readout now working under the new design
+* xxx_shift_0000.bed now linked to original xxx.bed
