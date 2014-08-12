@@ -38,4 +38,4 @@ o$nshiftStrs
 o$nshift
 o$readout("assoc.linear")
 o.contrast = o$contrastplot()$mhplot()
-ggsave(filename = "/tmp/height_pval5e-3.png", plot = o.contrast)
+ggsave(filename = "/tmp/height_pval5e-3.png", plot = o.contrast, height=5, width=8)

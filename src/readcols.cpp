@@ -61,7 +61,7 @@ Rcpp::CharacterMatrix readcols(std::string fn,
 //	std::vector< std::vector<std::string> > res(nc, std::vector<std::string>(nr));
     std::cout << "Allocating a matrix of " << nr << " rows and " << nc << " columns.\n";
 	Rcpp::CharacterMatrix res(nr, nc);
-	std::ifstream infile(fn);
+	std::ifstream infile(fn.c_str());
 	std::string tmpline;
 
 	// skip lines in the beginning

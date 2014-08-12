@@ -8,7 +8,7 @@
 
 
 void printlines(std::string fn) {
-	std::ifstream infile(fn);
+	std::ifstream infile(fn.c_str());
 	while(infile) {
 		std::string l;
 		std::getline(infile, l);

@@ -15,7 +15,7 @@
 size_t ncols(std::string fn) {
     try {
         fileExists(fn);
-        std::ifstream in_file(fn);
+        std::ifstream in_file(fn.c_str());
         std::string tmpline;
         std::getline(in_file, tmpline);
         std::vector<std::string> strs;
